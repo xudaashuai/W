@@ -20,7 +20,7 @@ LOG_LEVEL='INFO'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-HTTPERROR_ALLOWED_CODES = [400]
+HTTPERROR_ALLOWED_CODES = [403]
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
