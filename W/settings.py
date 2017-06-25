@@ -15,12 +15,13 @@ SPIDER_MODULES = ['W.spiders']
 NEWSPIDER_MODULE = 'W.spiders'
 
 LOG_LEVEL='INFO'
+#LOG_LEVEL='DEBUG'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'W (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-HTTPERROR_ALLOWED_CODES = [403]
+HTTPERROR_ALLOWED_CODES = [400,403,503]
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
